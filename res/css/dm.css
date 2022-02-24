@@ -38,6 +38,6 @@ header h1 span {position: absolute;display: block;top:4vw;background-image: line
         .mnone {display: none;}
         main {width: 100%;margin: 0vw;display: flex;border: none;box-shadow: none;}
         header h1 {font-size: 8vw;}
-        header h1 span {top:3vw;-webkit-text-stroke: 0.4vw black;}
+        header h1 span {top:3vw;-webkit-text-stroke: 0.4vw black;right:15vw;}
         header > div img {position: relative; left: 10vw;}
       }
