@@ -25,20 +25,29 @@ header table {border:0.25vw outset white;border-radius:1vw;display:flex;position
 header table td {padding:0.1vw;}
 header table img {filter:grayscale(100%);padding:0.2vw;}
 header table a:hover img {border: 0.1vw solid transparent; filter:none;}
-#menuline {background-color: black;color:white; text-align: center;font-size: 2vw;}
-#menuline div {padding:0.5vw;}
+#menuline {text-align: center;font-size: 2vw;}
+#menuline div {padding:0.5vw;background-color: black;}
+#menuline a {color:white;}
+#menuline a div:hover {background: linear-gradient(black 80%, red);}
+article {padding: 2vw;margin:2vw;}
 
-
-
-/* For desktop: */
-@media only screen and (min-width: 640px) {
+/* PC */
+@media only screen and (min-width: 1024px) {
+  .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
+  header h1 a:hover {background-image: linear-gradient(-5deg, darkorange,darkorange,darkorange,orange,yellow,black);color:transparent;-webkit-background-clip: text;background-clip: text;}
+.mdis {display: none;}
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
     header h1 a:hover {background-image: linear-gradient(-5deg, darkorange,darkorange,darkorange,orange,yellow,black);color:transparent;-webkit-background-clip: text;background-clip: text;}
   .mdis {display: none;}
   }
     
-    @media only screen and (max-width: 640px) {
-        /* For mobile phones: */
+
+    
+    @media only screen and (max-width: 768px) {
+        /* Telefon */
         .mcol-1 {width: 8.33%;}.mcol-2 {width: 16.66%;}.mcol-3 {width: 25%;}.mcol-4 {width: 33.33%;}.mcol-5 {width: 41.66%;}.mcol-6 {width: 50%;}.mcol-7 {width: 58.33%;}.mcol-8 {width: 66.66%;}.mcol-9 {width: 75%;}.mcol-10 {width: 83.33%;}.mcol-11 {width: 91.66%;}.mcol-12 {width: 100%;}
         .mnone {display: none;}
         .mdis {display:contents;}
