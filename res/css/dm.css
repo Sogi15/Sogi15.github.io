@@ -19,8 +19,8 @@ header {padding: 1vw;background: linear-gradient(black,darkred, red, darkred,bla
 header .head {float:left;}
 #page {width: 90%;margin: 40px auto;display: flex;border: 0px solid black;box-shadow: 0px 0px 10px 2px black;}
 /* Header cím testreszabása*/
-header h1 {align-content: center;display: flex;justify-content: center;text-align: center;font-size: 6vw}
-header h1 a {text-decoration: none;position: absolute;display: block;top:4vw;background-image: linear-gradient(-5deg, grey,grey,grey,darkgrey,white,black);color:transparent;-webkit-background-clip: text;background-clip: text;-webkit-text-stroke: 0.1vw black;font-family: Impact;}
+header h1 {align-content:center;display: flex;justify-content:center; text-align: center;font-size: 6vw;padding:0;margin:0;}
+header h1 a {text-decoration: none;position: absolute;display: block;background-image: linear-gradient(-5deg, grey,grey,grey,darkgrey,white,black);color:transparent;-webkit-background-clip: text;background-clip: text;-webkit-text-stroke: 0.1vw black;font-family: Impact;}
 header table {border:0.25vw outset white;border-radius:1vw;display:flex;position: relative;left:7vw;top:0.30vw;background: radial-gradient(circle, red, black);}
 header table td {padding:0.1vw;}
 header table img {filter:grayscale(100%);padding:0.2vw;}
@@ -44,6 +44,6 @@ header table a:hover img {border: 0.1vw solid transparent; filter:none;}
         .mdis {display:contents;}
         #page {width: 100%;margin: 0vw;display: flex;border: none;box-shadow: none;}
         header h1 {font-size: 8vw;}
-        header h1 a {top:3vw;-webkit-text-stroke: 0.4vw black;right:17vw;}
-        header > div img {position: relative; left: 10vw;}   
+        header h1 a {-webkit-text-stroke: 0.4vw black;margin: 1.5vw 0 0 24vw;}
+        header > div img {position: relative; margin:0 0 0  10vw;}   
     }
