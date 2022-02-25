@@ -17,98 +17,33 @@ body {padding:0;margin:0;}
 /* Alap beállítások */
 header {padding: 1vw;background: linear-gradient(black,darkred, red, darkred,black)}
 header .head {float:left;}
-main {width: 90%;margin: 40px auto;display: flex;border: 0px solid black;box-shadow: 0px 0px 10px 2px black;}
+#page {width: 90%;margin: 40px auto;display: flex;border: 0px solid black;box-shadow: 0px 0px 10px 2px black;}
 /* Header cím testreszabása*/
 header h1 {align-content: center;display: flex;justify-content: center;text-align: center;font-size: 6vw}
-header h1 span {position: absolute;display: block;top:4vw;background-image: linear-gradient(-5deg, grey,grey,grey,darkgrey,white,black);color:transparent;-webkit-background-clip: text;background-clip: text;-webkit-text-stroke: 0.1vw black;font-family: Impact;}
+header h1 a {text-decoration: none;position: absolute;display: block;top:4vw;background-image: linear-gradient(-5deg, grey,grey,grey,darkgrey,white,black);color:transparent;-webkit-background-clip: text;background-clip: text;-webkit-text-stroke: 0.1vw black;font-family: Impact;}
 header table {border:0.25vw outset white;border-radius:1vw;display:flex;position: relative;left:7vw;top:0.30vw;background: radial-gradient(circle, red, black);}
 header table td {padding:0.1vw;}
 header table img {filter:grayscale(100%);padding:0.2vw;}
 header table a:hover img {border: 0.1vw solid transparent; filter:none;}
+#menuline {background-color: black;color:white; text-align: center;font-size: 2vw;}
+#menuline div {padding:0.5vw;}
 
 
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
-    header h1 span:hover {background-image: linear-gradient(-5deg, darkorange,darkorange,darkorange,orange,yellow,black);color:transparent;-webkit-background-clip: text;background-clip: text;}
+    header h1 a:hover {background-image: linear-gradient(-5deg, darkorange,darkorange,darkorange,orange,yellow,black);color:transparent;-webkit-background-clip: text;background-clip: text;}
+  .mdis {display: none;}
   }
     
     @media only screen and (max-width: 768px) {
         /* For mobile phones: */
         .mcol-1 {width: 8.33%;}.mcol-2 {width: 16.66%;}.mcol-3 {width: 25%;}.mcol-4 {width: 33.33%;}.mcol-5 {width: 41.66%;}.mcol-6 {width: 50%;}.mcol-7 {width: 58.33%;}.mcol-8 {width: 66.66%;}.mcol-9 {width: 75%;}.mcol-10 {width: 83.33%;}.mcol-11 {width: 91.66%;}.mcol-12 {width: 100%;}
         .mnone {display: none;}
-        main {width: 100%;margin: 0vw;display: flex;border: none;box-shadow: none;}
+        .mdis {display:contents;}
+        #page {width: 100%;margin: 0vw;display: flex;border: none;box-shadow: none;}
         header h1 {font-size: 8vw;}
-        header h1 span {top:3vw;-webkit-text-stroke: 0.4vw black;right:15vw;}
-        header > div img {position: relative; left: 10vw;}
-    }
-
-    .hamburger, .close {
-      border: none;
-      cursor: pointer;
-      /* position absolute position the icons relative to the body because they have no position relative parents*/
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 36px;
-      height: 36px;
-    }
-    
-    .hamburger {
-      background: white;
-    }
-    
-    .close {
-      background: black;
-    }
-    
-    .hamburger img, .close img {
-      width: 100%;
-      height: 100%;
-    }
-    
-    .navbar {
-      position: absolute;
-      /* a higher z-index put navbar above hamburger */
-      z-index: 1000;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      /* basic menu styling*/
-      list-style: none;
-      background: black;
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: space-evenly;
-      align-items: center;
-      /* animate slide up/down */
-      transform: translateY(-100%);
-      transition: transform 0.2s ease;
-    }
-    
-    /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
-    
-    .navbar:target {
-      /* show navbar */
-      transform: translateY(0);
-    }
-    
-    .navbar li a {
-      display: block;
-      font-family: 'Open Sans', sans-serif;
-      color: white;
-      font-weight: bold;
-      font-size: 1.2rem;
-      /* remove default underline and add our own with padding and border bottom */
-      text-decoration: none;
-      border-bottom: 1px solid black;
-      padding-bottom: 0.5rem;
-    }
-    
-    .navbar li a:hover, li a:focus {
-      /* show border bottom */
-      border-bottom: 1px solid white;
+        header h1 a {top:3vw;-webkit-text-stroke: 0.4vw black;right:17vw;}
+        header > div img {position: relative; left: 10vw;}   
     }
