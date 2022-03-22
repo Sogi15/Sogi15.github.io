@@ -62,4 +62,9 @@ section {background-color: brown;margin:0;padding:1vw;}
         header h1 a {-webkit-text-stroke: 0.4vw black;margin: 1.5vw 0 0 24vw;}
         header > div img {position: relative; margin:0 0 0 10vw;}   
         article h1 {font-size: 5vw;}
+        #icons_mobile {background-color: black;}
+        #icons_mobile nav {text-align: center;font-size: 3vw;margin:auto;}
+        #icons_mobile nav div {padding:0.5vw;background-color: black;}
+        #icons_mobile nav a {color:white;}
+        #icons_mobile nav a div:hover {background: linear-gradient(black 80%, red);}
     }
