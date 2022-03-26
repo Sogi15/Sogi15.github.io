@@ -24,7 +24,7 @@ header h1 a {text-decoration: none;position: absolute;display: block;background-
 header table {border:0.25vw outset white;border-radius:1vw;display:flex;position: relative;left:7vw;top:0.30vw;background: radial-gradient(circle, red, black);}
 header table td {padding:0.1vw;}
 header table img {filter:grayscale(100%);padding:0.2vw;}
-header table a:hover img {border: 0.1vw solid transparent; filter:none;}
+header table a:hover img {border: 0.1vw solid transparent; filter:none;cursor:pointer;}
 #menuline {text-align: center;font-size: 2vw;margin:auto;}
 #menuline div {padding:0.5vw;background-color: black;}
 #menuline a {color:white;}
