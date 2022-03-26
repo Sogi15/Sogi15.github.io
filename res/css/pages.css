@@ -24,6 +24,6 @@ h1#cim {font-size: 5vw;}
 #gepem_img{width:50%;}
 #gepem .rogstrix{font-size:6vw;margin:0vw;-webkit-text-stroke: black 0.3vw;}
 #gepem h2 {font-size:3.5vw;}
-#gepem table {width:95%;}
-#gepem table tr td {border:0.3vw solid black;}
+#gepem table {width:95%;font-size: 2vw;}
+#gepem table tr td {border:0.3vw solid black;padding:1vw;}
 }
