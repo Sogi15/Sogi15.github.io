@@ -13,7 +13,9 @@ h1#cim {font-size: 2.5vw; font-family: Arial, Helvetica, sans-serif; text-align:
 #gepem table tr td {width: 100%;border: 0.01vw solid black;background: linear-gradient(orangered,red,darkred);padding:0.5vw;}
 #gepem table tr td a {color:black; text-decoration: none;}
 #gepem .gepem_img {display:none;}
+#gepem #rogstriximg {display:none;}
 #gepem .gepem_img img {width:24%;display: flex; float:right;margin: 0 1vw;}
+#gepem #rogstriximg img {width:24%;display: flex; float:right;margin: 0 1vw;}
 #gepem .peri_img {display:none;}
 #gepem .peri_img img {width:20%;display: flex; float:right;margin: 0 1vw;}
 @media only screen and (min-width: 900px) { /*Pc*/
@@ -32,6 +34,8 @@ h1#cim {font-size: 5vw;}
 #gepem table {width:98%;font-size: 2.5vw;}
 #gepem table tr td {border:0.3vw solid black;padding:1vw;}
 #gepem .gepem_img {display:none;}
+#gepem #rogstriximg {display:block;}
+#gepem #rogstriximg img {width:50%;margin: 1vw auto; display: flex;float:none;}
 #gepem .peri_img {display:none;}
 #gepem .peri_img img {display:none;}
 #gepem .gepem_img img {display:none;}
