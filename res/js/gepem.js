@@ -12,10 +12,10 @@ document.getElementById("wd").onmouseover = function() {document.getElementById(
 document.getElementById("wd").onmouseout = function() {document.getElementById("wdlogo").style.display="none";};
 document.getElementById("fejhallgato").onmouseover = function() {document.getElementById("fejhallgatoimg").style.display="block";};
 document.getElementById("fejhallgato").onmouseout = function() {document.getElementById("fejhallgatoimg").style.display="none";};
-document.getElementById("eger").onmouseover = function() {document.getElementById("egerimg").style.display="block";};
-document.getElementById("eger").onmouseout = function() {document.getElementById("egerimg").style.display="none";};
-document.getElementById("egerpad").onmouseover = function() {document.getElementById("egerpadimg").style.display="block";};
-document.getElementById("egerpad").onmouseout = function() {document.getElementById("egerpadimg").style.display="none";};
+document.getElementById("eger").onmouseover = function() {document.getElementById("eger_egerpadimg").style.display="block";};
+document.getElementById("eger").onmouseout = function() {document.getElementById("eger_egerpadimg").style.display="none";};
+document.getElementById("egerpad").onmouseover = function() {document.getElementById("eger_egerpadimg").style.display="block";};
+document.getElementById("egerpad").onmouseout = function() {document.getElementById("eger_egerpadimg").style.display="none";};
 document.getElementById("kontroller1").onmouseover = function() {document.getElementById("kontroller1img").style.display="block";};
 document.getElementById("kontroller1").onmouseout = function() {document.getElementById("kontroller1img").style.display="none";};
 document.getElementById("kontroller2").onmouseover = function() {document.getElementById("kontroller2img").style.display="block";};
