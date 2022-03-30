@@ -18,16 +18,15 @@
             <div class="centered col-8 mcol-7">
                 <h1><a href="index.html" target="_self" title="Főoldalra">Főoldal</a></h1>
             </div>
-           <div class="right col-2">
-            <div class="mnone"> <!-- Kicsi ikonok mint yt,tiktok,insta,pc-->
+           <div class="right col-2 mnone"> <!-- Kicsi ikonok mint yt,tiktok,insta,pc-->
             <table class="col-6"><tr class="col-12">
                     <td class="col-6"><a href="https://www.youtube.com/channel/UCFwuIrcxUxW4BpnNu1LbdGA" title="Youtube" target="_blank"><img src="res/icon/youtube.ico" class="col-12"></a></td>
                     <td class="col-6"><a href="https://www.instagram.com/accounts/login/?next=/demonmester/" title="Instagram" target="_blank"><img src="res/icon/instagram.ico" class="col-12"></a></td></tr>
                 <tr class="col-12">
                     <td class="col-6"><a href="https://www.tiktok.com/@demonmester15" title="TikTok" target="_blank"><img src="res/icon/tiktok.ico" class="col-12"></a></td>
-                    <td class="col-6"><a onclick="gepem()" title="Gépem"><img src="res/icon/specs.ico" class="col-12"></a></td></tr></table></div>
+                    <td class="col-6"><a onclick="gepem()" title="Gépem"><img src="res/icon/specs.ico" class="col-12"></a></td></tr></table>
                 </div>
-                <div class="mcol-2 mdis right mobil"> <!-- mobilos menü!--></div>
+                <div class="mdis mcol-2 right" id="mobilmenuclick" onclick="mobilmenu()">Menü</div>
         </header>
         <nav class="col-12 mnone" id="menuline">
             <a onclick="menu()"><div class="col-3">Menü</div></a>
@@ -42,8 +41,15 @@
     <a href="https://www.tiktok.com/@demonmester15" target="_blank"><div class="mcol-3">TikTok</div></a>
     <a onclick="gepemM()"><div class="mcol-3">Gépem</div></a>
 </nav></div>
+<div class="mcol-12" id="mobilmenu">
+    <hr class="mcol-12">
+    <a onclick="menu()"><div class="mcol-3">Menü</div></a>
+    <a onclick="menu()"><div class="mcol-3">Menü</div></a>
+    <a onclick="menu()"><div class="mcol-3">Menü</div></a>
+    <a onclick="rolamM()"><div class="mcol-3">Rólam</div></a>
+</div>
 <div class="col-12" id="colorbg">
-    <!-- Ezt a weboldalt azért hoztam létre,hogy ne kerüljek trébe -->
+    <!-- gradient article és nav között -->
 </div>
 <article class="col-12">
     <span id="home" class="col-12">
