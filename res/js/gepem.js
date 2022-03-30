@@ -8,7 +8,7 @@ function rogstrixviewX() {if (view==0){document.getElementById("rogstriximg").st
 document.getElementById("rogstrix").onmouseover = function() {document.getElementById("rogstriximg").style.display="block";};
 document.getElementById("rogstrix").onmouseout = function() {rogstrixview()};
 document.getElementById("nvidiartx").onmouseover = function() {document.getElementById("nvidiartxlogo").style.display="block";rogstrixviewD()};
-document.getElementById("nvidiartx").onmouseout = function() {document.getElementById("nvidiartxlogo").style.display="none";};
+document.getElementById("nvidiartx").onmouseout = function() {document.getElementById("nvidiartxlogo").style.display="none";rogstrixviewX()};
 document.getElementById("ryzen").onmouseover = function() {document.getElementById("ryzenlogo").style.display="block";rogstrixviewD()};
 document.getElementById("ryzen").onmouseout = function() {document.getElementById("ryzenlogo").style.display="none";rogstrixviewX()};
 document.getElementById("micron").onmouseover = function() {document.getElementById("micronlogo").style.display="block";rogstrixviewD()};
