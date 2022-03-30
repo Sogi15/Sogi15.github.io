@@ -23,12 +23,5 @@ function rolamM() {
     document.getElementById("home").innerHTML="<style>span#home {display:none;}</style>";
 }
 function mobilmenu(){
-    if (mobilmenumegjelenit==1) {
-    document.getElementById("mobilmenu").style.display = "block";
-    mobilmenumegjelenit = 0;
-    }
-    else {
-        document.getElementById("mobilmenu").style.display = "none";
-        mobilmenumegjelenit=1;
-    }
-}
+    if (mobilmenumegjelenit==1) {document.getElementById("mobilmenu").style.display = "block";
+    mobilmenumegjelenit = 0;}else {document.getElementById("mobilmenu").style.display = "none";mobilmenumegjelenit=1;}}
