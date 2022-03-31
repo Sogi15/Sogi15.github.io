@@ -1,0 +1,48 @@
+body {padding:0;margin:0;}
+h1#cim {padding:0;margin:0;-webkit-text-stroke: black 0.1vw;font-size: 2.5vw; font-family: Arial, Helvetica, sans-serif; text-align: center;
+    background: linear-gradient(to right, darkorange,red,darkred,orangered,orange);-webkit-background-clip: text;background-clip: text;color: transparent;animation: cim_anim 12s ease-in-out infinite;background-size: 400% 100%;}
+
+/* gepem.html */
+@keyframes rainbow_animation {0%,100% {background-position: 0 0;}50% {background-position: 100% 0;}}
+@keyframes cim_anim {0%,100% {background-position: 0 0;}50% {background-position: 100% 0;}}
+#gepem #gepem_img {width: 40%;display: flex; margin: 0 auto;}
+#gepem h2 {text-align: center;}
+#gepem .rogstrix {text-align: center;font-size: 3vw;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 0.35vw;-webkit-text-stroke: black 0.05vw;}
+#gepem .rogstrixlights {background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 12s ease-in-out infinite;background-size: 400% 100%;}
+#gepem .rogstrixlights a:hover {background: linear-gradient(to right, darkorange,red,darkred,orangered,orange);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 12s ease-in-out infinite;background-size: 400% 100%;}
+#gepem .rogstrix a {cursor:url('../img/gepem/rogstrix_pointer.png'),pointer;}
+#gepem table {margin: 0 1vw;width:70%;font-weight: bold;font-family:Arial, Helvetica, sans-serif;font-size: 1.5vw;border: 0.2vw solid black;padding:0.35vw;text-align: center;box-shadow: red 0vw 0vw 1vw 0.125vw;background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);animation: rainbow_animation 12s ease-in-out infinite;background-size: 400% 100%;}
+#gepen table tr {width:100%;padding:0;}
+#gepem table tr td {width: 100%;border: 0.01vw solid black;background: linear-gradient(orangered,red,darkred);padding:0.5vw;}
+#gepem table tr td a {color:black; text-decoration: none;}
+#gepem .gepem_img {display:none;}
+#gepem #rogstriximg {display:none;}
+#gepem .gepem_img img {width:24%;display: flex; float:right;margin: 0 1vw;}
+#gepem #rogstriximg img {width:24%;display: flex; float:right;margin: 0 1vw;}
+#gepem .peri_img {display:none;}
+#gepem .peri_img img {width:24%;display: flex; float:right;margin: 0 1vw;}
+
+/* rolam.html */
+
+@media only screen and (min-width: 900px) { /*Pc*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) { /* Tablet */
+
+}
+
+@media only screen and (max-width: 768px) { /* Telefon */
+h1#cim {font-size: 6vw;-webkit-text-stroke: black 0.3vw;}
+#gepem_img{width:50%;}
+#gepem .rogstrix{font-size:6vw;margin:0vw;-webkit-text-stroke: black 0.3vw;}
+#gepem h2 {font-size:3.5vw;}
+#gepem table {width:98%;font-size: 2.5vw;}
+#gepem table tr td {border:0.3vw solid black;padding:1vw;}
+#gepem .gepem_img {display:none;}
+#gepem #rogstriximg {display:block;}
+#gepem #rogstriximg img {width:50%;margin: 1vw auto; display: flex;float:none;}
+#gepem .peri_img {display:none;}
+#gepem .peri_img img {display:none;}
+#gepem .gepem_img img {display:none;}
+}
