@@ -8,7 +8,7 @@ body {padding:0;margin:0;}
     float:left;
 }
 /* Konstansok */
-#content {width:100%;padding:0;margin:0;}
+#content {width:100%;}
 .left {float:left;}
 .right {float:right;}
 .tx-center {text-align: center;}
@@ -21,7 +21,7 @@ header .head {float:left;}
 #page {width: 90%;margin: 2.5vw auto;padding:0;display: flex;border: solid black;box-shadow: 0vw 0vw 1vw 0.3vw black;}
 /* Header cím testreszabása*/
 header h1 {align-content:center;display: flex;justify-content:center; text-align: center;font-size: 6vw;padding:0;margin:0;}
-header h1 a {text-decoration: none;position: absolute;display: block;background-image: linear-gradient(-5deg, grey,grey,grey,darkgrey,white,black);color:transparent;-webkit-background-clip: text;background-clip: text;-webkit-text-stroke: 0.1vw black;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+header h1 a {text-decoration: none;position: absolute;display: block;background: linear-gradient(-25deg, grey,darkgrey,rgb(105, 105, 105),rgb(188, 188, 188));-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 6s ease-in-out infinite;background-size: 400% 100%;-webkit-text-stroke: 0.1vw black;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 header table {border:0.25vw outset white;border-radius:1vw;display:flex;position: relative;left:7vw;top:0.30vw;background: radial-gradient(circle, red, black);}
 header table td {padding:0.1vw;}
 header table img {filter:grayscale(100%);padding:0.2vw;}
@@ -40,7 +40,7 @@ section {background-color: brown;margin:0;padding:1vw;}
 /* PC */
 @media only screen and (min-width: 900px) {
   .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
-  header h1 a:hover {background-image: linear-gradient(-5deg, darkorange,darkorange,darkorange,orange,yellow,black);color:transparent;-webkit-background-clip: text;background-clip: text;}
+  header h1 a:hover {background: linear-gradient(-25deg, orange,orangered,darkorange,orangered,yellow);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 6s ease-in-out infinite;background-size: 400% 100%;}
 .mdis {display: none;}
 }
 /* Tablet */

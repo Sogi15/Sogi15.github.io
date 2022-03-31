@@ -2,6 +2,7 @@
 function rolam() {
     document.getElementById("content").data='res/rolam.html';
     document.getElementById("home").style.display="none";
+    document.getElementById("content").style.height='40vw';
     document.getElementById("menu_rolam").style.color = "orange";
     document.getElementById("menu_rolam").style.background = "linear-gradient(black 80%, red)";
     document.getElementById("menu_test").style.color = "";
@@ -16,7 +17,7 @@ function menu() {
 }
 function gepem() {
     document.getElementById("content").data='res/gepem.html';
-    document.getElementById("content").style.height='46vw';
+    document.getElementById("content").style.height='50vw';
     document.getElementById("home").style.display="none";
     document.getElementById("menu_rolam").style.color = "";document.getElementById("menu_rolam").style.background = "";
     document.getElementById("menu_test").style.color = "";

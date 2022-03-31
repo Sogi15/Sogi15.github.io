@@ -23,6 +23,37 @@ h1#cim {padding:0;margin:0;-webkit-text-stroke: black 0.1vw;font-size: 2.5vw; fo
 #gepem .peri_img img {width:24%;display: flex; float:right;margin: 0 1vw;}
 
 /* rolam.html */
+#rolam_dm_card {padding:1vw;box-shadow: 0vw 0vw 1vw 0.25vw black;border: 2px solid black;width: 40%;margin:1vw auto;background: rgb(249, 101, 101);}
+#rolam_dm_card #logo {display:block;width: 50%;margin: 0 auto;}
+#rolam_dm_card #logo:hover {display:block;width: 70%;margin: 0 auto;}
+#rolam_dm_card #id {color: rgb(33, 33, 33);font-size:1.5vw;text-align: center; padding:0.5vw;border: 0.25vw solid black; width: 70%;margin:0.25vw auto;border-radius: 1vw;background: rgb(255, 124, 124);}
+#rolam_dm_card #id span:hover {text-decoration: underline red 0.2vw;}
+#rolam_dm_card #contact {text-align: center;}
+#rolam_dm_card #contact a {font-size: 2vw;font-family: Arial, Helvetica, sans-serif;font-weight: bold;color:black; text-decoration: none;}
+#rolam_dm_card #contact a:hover {text-decoration: underline 0.4vw red;cursor:pointer;}
+/*
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  } */
 
 @media only screen and (min-width: 900px) { /*Pc*/
 
