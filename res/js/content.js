@@ -36,6 +36,7 @@ function gepemM() {
 function rolamM() {
     document.getElementById("content").data='res/rolam.html';
     document.getElementById("home").style.display="none";
+    document.getElementById("content").style.height='55vw';
     document.getElementById("menu_gepem").style.color = "";
     document.getElementById("menu_rolamM").style.color = "orange";
 }
