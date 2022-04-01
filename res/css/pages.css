@@ -65,6 +65,6 @@ h1#cim {font-size: 6vw;-webkit-text-stroke: black 0.3vw;}
 #rolam_dm_card #id {font-size:2.5vw;padding:0.5vw;border: 0.5vw solid black; width: 70%;margin:0.5vw auto;border-radius: 1.5vw;background: rgb(255, 124, 124);}
 #rolam_dm_card #id span:hover {text-decoration: none;}
 #rolam_dm_card #contact_s {font-size: 5vw;margin:0;padding:0;}
-#rolam_dm_card #sendmail {font-size: 3vw;}
+#rolam_dm_card #sendmail {font-size: 2.75vw;}
 #rolam_dm_card #sendmail span {font-size: 3.15vw;}
 }
