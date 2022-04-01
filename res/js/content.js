@@ -2,7 +2,7 @@
 function rolam() {
     document.getElementById("content").data='res/rolam.html';
     document.getElementById("home").style.display="none";
-    document.getElementById("content").style.height='40vw';
+    document.getElementById("content").style.height='60vw';
     document.getElementById("menu_rolam").style.color = "orange";
     document.getElementById("menu_rolam").style.background = "linear-gradient(black 80%, red)";
     document.getElementById("menu_test").style.color = "";
