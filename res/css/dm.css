@@ -1,69 +1,75 @@
+* {box-sizing: border-box;}
 body {padding:0;margin:0;}
-h1#cim {padding:0;margin:0;-webkit-text-stroke: black 0.1vw;font-size: 2.5vw; font-family: Arial, Helvetica, sans-serif; text-align: center;
-    background: linear-gradient(to right, darkorange,red,darkred,orangered,orange);-webkit-background-clip: text;background-clip: text;color: transparent;animation: cim_anim 12s ease-in-out infinite;background-size: 400% 100%;}
+[class*="col-"] {
+    width: 100%;
+  }
 
-/* gepem.html */
-@keyframes rainbow_animation {0%,100% {background-position: 0 0;}50% {background-position: 100% 0;}}
+  [class*="col-"] {
+    float:left;
+}
+/* Konstansok */
+#content {width:100%;}
+.left {float:left;}
+.right {float:right;}
+.tx-center {text-align: center;}
+.tx-justify {text-align: justify;}
+.tx-left {text-align: left;}
+.tx-right {text-align: right;}
+/* Alap beállítások */
+header {padding: 1vw;background: linear-gradient(black,darkred, red, darkred,black);}
+header .head {float:left;}
+#page {width: 90%;margin: 2.5vw auto;padding:0;display: flex;border: solid black;box-shadow: 0vw 0vw 1vw 0.3vw black;}
+/* Header cím testreszabása*/
+header h1 {align-content:center;display: flex;justify-content:center; text-align: center;font-size: 6vw;padding:0;margin:0;}
+header h1 a {text-decoration: none;position: absolute;display: block;background: linear-gradient(-25deg, grey,darkgrey,rgb(105, 105, 105),rgb(188, 188, 188));-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 6s ease-in-out infinite;background-size: 400% 100%;-webkit-text-stroke: 0.1vw black;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+header table {border:0.25vw outset white;border-radius:1vw;display:flex;position: relative;left:7vw;top:0.30vw;background: radial-gradient(circle, red, black);}
+header table td {padding:0.1vw;}
+header table img {filter:grayscale(100%);padding:0.2vw;}
+header table a:hover img {border: 0.1vw solid transparent; filter:none;cursor:pointer;}
+#menuline {text-align: center;font-size: 2vw;margin:auto;}
+#menuline div {padding:0.5vw;background-color: black;}
+#menuline a {color:white;}
+#menuline a div:hover {color:orange;background: linear-gradient(black 80%, red);cursor:pointer;}
+#colorbg {height:2vw;background: linear-gradient(black,lightcoral);}
+article {padding:1vw;margin:0;background-color: lightcoral;}
+article h1 {font-size: 2.25vw;padding:0;margin:0vw 0vw 1vw 0vw;font-family: Arial, Helvetica, sans-serif;}
+section {background-color: brown;margin:0;padding:1vw;}
+#mobilmenu {display:none;color:white;}
 @keyframes cim_anim {0%,100% {background-position: 0 0;}50% {background-position: 100% 0;}}
-#gepem #gepem_img {width: 40%;display: flex; margin: 0 auto;}
-#gepem h2 {text-align: center;}
-#gepem .rogstrix {text-align: center;font-size: 3vw;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 0.35vw;-webkit-text-stroke: black 0.05vw;}
-#gepem .rogstrixlights {background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 12s ease-in-out infinite;background-size: 400% 100%;}
-#gepem .rogstrixlights a:hover {background: linear-gradient(to right, darkorange,red,darkred,orangered,orange);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 12s ease-in-out infinite;background-size: 400% 100%;}
-#gepem .rogstrix a {cursor:url('../img/gepem/rogstrix_pointer.png'),pointer;}
-#gepem table {margin: 0 1vw;width:70%;font-weight: bold;font-family:Arial, Helvetica, sans-serif;font-size: 1.5vw;border: 0.2vw solid black;padding:0.35vw;text-align: center;box-shadow: red 0vw 0vw 1vw 0.125vw;background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);animation: rainbow_animation 12s ease-in-out infinite;background-size: 400% 100%;}
-#gepen table tr {width:100%;padding:0;}
-#gepem table tr td {width: 100%;border: 0.01vw solid black;background: linear-gradient(orangered,red,darkred);padding:0.5vw;}
-#gepem table tr td a {color:black; text-decoration: none;}
-#gepem .gepem_img {display:none;}
-#gepem #rogstriximg {display:none;}
-#gepem .gepem_img img {width:24%;display: flex; float:right;margin: 0 1vw;}
-#gepem #rogstriximg img {width:24%;display: flex; float:right;margin: 0 1vw;}
-#gepem .peri_img {display:none;}
-#gepem .peri_img img {width:24%;display: flex; float:right;margin: 0 1vw;}
 
-/* rolam.html */
-#rolam_dm_card {padding:1vw;box-shadow: 0vw 0vw 1vw 0.25vw black;border: 0.25vw solid black;width: 40%;margin:1vw auto;background: rgb(249, 101, 101);}
-#rolam_dm_card #logo {display:block;width: 50%;margin: 0 auto;}
-#rolam_dm_card #logo:hover {display:block;width: 70%;margin: 0 auto;}
-#rolam_dm_card #id {color: rgb(33, 33, 33);font-size:1.5vw;text-align: center; padding:0.5vw;border: 0.25vw solid black; width: 70%;margin:0.25vw auto;border-radius: 1vw;background: rgb(255, 124, 124);}
-#rolam_dm_card #id span:hover {text-decoration: underline red 0.2vw;}
-#rolam_dm_card p {text-align: center;}
-#rolam_dm_card #contact_s {text-align: center;font-size: 2vw;font-family: Arial, Helvetica, sans-serif;font-weight: bold;color:black; text-decoration: none;margin:0.5vw 0;padding:0;}
-#rolam_dm_card #contact_s:hover {text-decoration: underline 0.4vw red;cursor:pointer;}
-#rolam_dm_card #minicons {display: none;}
-#rolam_dm_card #minicons #miniconsimg {display:block;text-align: center; width: 100%;}
-#rolam_dm_card #minicons #miniconsimg a img {width: 10%;padding:0;}
-#rolam_dm_card #minicons #miniconsimg a img:hover {filter:opacity(0.75);}
-#rolam_dm_card #sendmail {text-align: center;font-size: 1.25vw;}
-#rolam_dm_card #sendmail span {font-size: 1.35vw;color:darkred;font-weight: bold;}
-
-@media only screen and (min-width: 900px) { /*Pc*/
-
+/* PC */
+@media only screen and (min-width: 900px) {
+  .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
+  header h1 a:hover {background: linear-gradient(-25deg, orange,orangered,darkorange,orangered,yellow);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 6s ease-in-out infinite;background-size: 400% 100%;}
+.mdis {display: none;}
 }
+/* Tablet */
 
-@media only screen and (min-width: 768px) and (max-width: 900px) { /* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  #page {width: 100%;display: flex;margin:0vw;border:none;box-shadow:none;}
+    .col-1 {width: 8.33%;}.col-2 {width: 16.66%;}.col-3 {width: 25%;}.col-4 {width: 33.33%;}.col-5 {width: 41.66%;}.col-6 {width: 50%;}.col-7 {width: 58.33%;}.col-8 {width: 66.66%;}.col-9 {width: 75%;}.col-10 {width: 83.33%;}.col-11 {width: 91.66%;}.col-12 {width: 100%;}
+    header h1 a:hover {background-image: linear-gradient(-5deg, darkorange,darkorange,darkorange,orange,yellow,black);color:transparent;-webkit-background-clip: text;background-clip: text;}
+  .mdis {display: none;}
+  }
+    
 
-}
-
-@media only screen and (max-width: 768px) { /* Telefon */
-h1#cim {font-size: 6vw;-webkit-text-stroke: black 0.3vw;}
-#gepem_img{width:50%;}
-#gepem .rogstrix{font-size:6vw;margin:0vw;-webkit-text-stroke: black 0.3vw;}
-#gepem h2 {font-size:3.5vw;}
-#gepem table {width:98%;font-size: 2.5vw;}
-#gepem table tr td {border:0.3vw solid black;padding:1vw;}
-#gepem .gepem_img {display:none;}
-#gepem #rogstriximg {display:block;}
-#gepem #rogstriximg img {width:50%;margin: 1vw auto; display: flex;float:none;}
-#gepem .peri_img {display:none;}
-#gepem .peri_img img {display:none;}
-#gepem .gepem_img img {display:none;}
-#rolam_dm_card #minicons #miniconsimg a img:hover {filter:none;}
-#rolam_dm_card {padding:1.5vw;box-shadow: 0vw 0vw 1vw 0.25vw black;border: 0.75vw solid black;width: 90%;margin:1vw auto;}
-#rolam_dm_card #logo:hover {display:block;width: 50%;margin: 0 auto;}
-#rolam_dm_card #id {font-size:2.5vw;padding:0.5vw;border: 0.5vw solid black; width: 70%;margin:0.5vw auto;border-radius: 1.5vw;background: rgb(255, 124, 124);}
-#rolam_dm_card #id span:hover {text-decoration: none;}
-#rolam_dm_card #contact_s {font-size: 5vw;margin:0.1vw 0;padding:0;}
-
-}
+    
+    @media only screen and (max-width: 768px) {
+        /* Telefon */
+        .mcol-1 {width: 8.33%;}.mcol-2 {width: 16.66%;}.mcol-3 {width: 25%;}.mcol-4 {width: 33.33%;}.mcol-5 {width: 41.66%;}.mcol-6 {width: 50%;}.mcol-7 {width: 58.33%;}.mcol-8 {width: 66.66%;}.mcol-9 {width: 75%;}.mcol-10 {width: 83.33%;}.mcol-11 {width: 91.66%;}.mcol-12 {width: 100%;}
+        .mnone {display: none;}
+        .mdis {display:block;}
+        #page {width: 100%;margin: 0vw;display: flex;border: none;box-shadow: none;}
+        header h1 {font-size: 8vw;}
+        header h1 a {-webkit-text-stroke: 0.4vw black;margin: 1.5vw 0 0 24vw;}
+        header > div img {position: relative; margin:0 0 0 10vw;}   
+        article h1 {font-size: 5vw;}
+        #icons_mobile {background-color: black;}
+        #icons_mobile nav {text-align: center;font-size: 3vw;margin:auto;}
+        #icons_mobile nav div {padding:0.5vw;background-color: black;}
+        #icons_mobile nav a {color:white;}
+        #icons_mobile nav a div:hover {background: black;}
+        #mobilmenu {text-align: center; background-color: black;}
+        #mobilmenu div {padding:0.5vw;}
+        #mobilmenu a {color:white;text-decoration: none;font-size:4vw;}
+    }
