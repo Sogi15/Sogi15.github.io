@@ -17,7 +17,7 @@ function menu() {
 }
 function gepem() {
     document.getElementById("content").data='res/gepem.html';
-    document.getElementById("content").style.height='50vw';
+    document.getElementById("content").style.height='55vw';
     document.getElementById("home").style.display="none";
     document.getElementById("menu_rolam").style.color = "";document.getElementById("menu_rolam").style.background = "";
     document.getElementById("menu_test").style.color = "";
@@ -29,7 +29,7 @@ let mobilmenumegjelenit = 1; // változó, hogy ha mobilon a menüre kattintunk 
 function gepemM() {
     document.getElementById("content").data='res/gepem.html';
     document.getElementById("home").style.display="none";
-    document.getElementById("content").style.height='125vw';
+    document.getElementById("content").style.height='140vw';
     document.getElementById("menu_gepem").style.color = "orange";
     document.getElementById("menu_rolamM").style.color = "";
 }
